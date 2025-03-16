@@ -1,0 +1,101 @@
+// 태블릿 이하
+@media screen and (max-width: 768px) {
+    header {
+        .header-inner {
+            > section {
+                &.logo {}
+
+                &.menu {
+                    display: none;
+
+                    &.show {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    
+    main {
+        &::after {
+            display: none;
+        }
+    }
+
+    article {
+        &#about {
+            .container-inner {
+                > section {
+                    &:last-child {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &#career {
+            .container-inner {
+                .item {
+                    > section {
+                        &:last-child {
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+
+        &#skill {
+            width: 600vw !important;
+            
+            .item {
+                width: 100vw;
+
+                &.contents {
+                    max-width: auto;
+                }
+            }
+        }
+
+        &#projects {
+            .item {
+                > .container-inner {
+                    width: 100% !important;
+                    padding: 0 20px;
+
+                    > img {
+                        display: none !important;
+                    }
+
+                    > div {
+                        width: auto !important;
+                        min-width: auto !important;
+                    }
+                }
+            }
+        }
+
+        &#progress {
+            display: none;
+        }
+
+        &#etc {
+            .cursor {
+                &.main {
+                    display: none;
+                }
+            }
+        }
+
+        &#skip {
+            display: none;
+        }
+
+        &#end {
+            .container-inner {
+                width: 100%;
+            }
+        }
+
+    }
+}
