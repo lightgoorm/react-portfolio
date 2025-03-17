@@ -55,7 +55,7 @@ const Section01 = () => {
                     웹-프론트엔드
                 </section>
                 <section className="bottom">
-                    포트폴리오
+                    함 운 경
                 </section>
             </section>
             {/* 제목 END */}

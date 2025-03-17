@@ -27,7 +27,7 @@ const Index = ({ isMobile, data }) => {
             <Section03 isMobile={isMobile} data={ data.career } type={ type } />
             <Section04 isMobile={isMobile} data={ data.skill } type={ type } />
             <Section06 isMobile={isMobile} data={ data.projects } type={ type } />
-            <Section05 isMobile={isMobile} data={ data.education } type={ type } />
+            {/*<Section05 isMobile={isMobile} data={ data.education } type={ type } />*/}
             <Section07 />
         </Fragment>
     )

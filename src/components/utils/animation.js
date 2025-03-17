@@ -34,7 +34,7 @@ class Animation {
             });
 
             const conatinerSkill = document.querySelector("#skill");
-            const containerEducation = document.querySelector("#education");
+            const containerEducation = document.querySelector("#end");
 
             ScrollTrigger.create({
                 trigger: "#education", // 트리거할 섹션을 #skill로 설정
@@ -75,8 +75,6 @@ class Animation {
         
             requestAnimationFrame(raf);
         },
-
-        footer: () => {},
 
         progress: () => {}
     }

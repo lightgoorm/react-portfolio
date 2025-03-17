@@ -6,13 +6,13 @@ export const data = {
             desc: [
                 {
                     name: "코오롱 베니트",
-                    description: "팬덤박스 플랫폼에서 UX/UI 개선 및 API 최적화를 통해 브랜드 아이덴티티와 사용자 경험을 강화하고, 메이즈 공식 홈페이지의 프론트엔드 관리 및 설계를 통해 성능 최적화와 SEO 전략을 적용하여 검색 노출을 개선했습니다.",
-                    tags: ["재직", "2021.04 ~ ", "프론트엔드"]
+                    description: "스마트 홈 플랫폼에서 프론트엔드 파트리더로 백오피스 및 크로스 플랫폼 웹뷰 개발 수행 / AWS 환경에서 무중단 배포, 성능 테스트, 운영 시스템 구축",
+                    tags: ["재직", "2021.04 ~ ", "프론트엔드 / Devops"]
                 },
                 {
-                    name: "이솔 스튜디오 (창업)",
-                    description: "삼성테마, 카카오톡 테마 등 플랫폼 별 테마를 이용한 캐릭터 디자인 및 아이콘 디자인을 이용해 무료로 제작 또는 유료로 판매하였습니다.",
-                    tags: ["창업", "2020.02 - 2022.06", "디자인"]
+                    name: "코오롱 베니트",
+                    description: "Vue.Js 기반 사내 업무 시스템 프레임워크 고도화 및 디자인 시스템 구축 참여",
+                    tags: ["인턴", "2021.01 - 2021.04", "프론트엔드"]
                 }
             ]
         },
@@ -31,62 +31,116 @@ export const data = {
     // 섹션 3
     skill: [
         {
-            "title": "라이브러리",
+            "title": "프론트엔드",
             "desc": [
                 {
-                    "name": "Bootstrap",
-                    "description": "클래스명으로 간편하게 HTML을 스타일링할 수 있어 사용했습니다.",
+                    "name": "Vue",
+                    "description": "Vue의 구조를 이해하고, 모듈화된 공통 컴포넌트를 개발했습니다.",
                     "imgSrc": "img-icon-react"
-                },
-                {
-                    "name": "Laravel Blade Template",
-                    "description": "라라벨에서 효율적인 HTML 작성을 위해 조건문과 반복문 등을 사용했습니다.",
-                    "imgSrc": "img-icon-laravel"
-                },
-                {
-                    "name": "Lottie",
-                    "description": "모션을 추가하여 GIF보다 적은 용량으로 최적화된 이미지를 제공하는 데 매력을 느껴 사용했습니다.",
-                    "imgSrc": "img-icon-laravel"
-                },
-                {
-                    "name": "Swiper",
-                    "description": "다양한 슬라이드 형태를 구현할 수 있어 사용했습니다.",
-                    "imgSrc": "img-icon-swiper"
-                },
-                {
-                    "name": "Lenis",
-                    "description": "부드러운 스크롤 제어가 간편하여 사용했습니다.",
-                    "imgSrc": "img-icon-lenis"
-                },
-                {
-                    "name": "Jquery",
-                    "description": "바닐라 자바스크립트를 더 쉽게 사용하고, 애니메이션 구현 시간이 단축되어 사용했습니다.",
-                    "imgSrc": "img-icon-jquery"
-                }
-            ]
-        },
-        {
-            "title": "프론트",
-            "desc": [
-                {
+                },                {
                     "name": "React",
                     "description": "React의 구조를 이해하고 여러 Hook을 사용하여 개발했습니다.",
                     "imgSrc": "img-icon-react"
                 },
                 {
-                    "name": "Zustand",
-                    "description": "리덕스의 초기 세팅을 축소하여 빠르게 작업할 수 있었고, 상태 정의와 사용이 간편해 사용했습니다.",
-                    "imgSrc": "img-icon-react"
-                },
-                {
-                    "name": "Svelte",
-                    "description": "간단한 상태 관리와 반응형 기능을 제공하여 사용했습니다.",
-                    "imgSrc": "img-icon-svelte"
-                },
-                {
                     "name": "Next JS",
                     "description": "서버 사이드 렌더링과 정적 사이트 생성 기능을 활용해 사용했습니다.",
                     "imgSrc": "img-icon-svelte"
+                },
+                {
+                    "name": "React Native",
+                    "description": "고객 편의를 위하여 간단한 어플리케이션 제작에 활용해 사용했습니다.",
+                    "imgSrc": "img-icon-svelte"
+                },
+            ]
+        },
+        {
+            "title": "번들링",
+            "desc": [
+                {
+                    "name": "Webpack",
+                    "description": "코드 스플리팅과 트리 쉐이킹을 적용하여 번들 크기를 최적화하고, 웹 애플리케이션의 빌드 성능을 개선했습니다.",
+                    "imgSrc": "img-icon-webpack"
+                },
+                {
+                    "name": "Vite",
+                    "description": "ES 모듈 기반의 빠른 개발 서버를 활용하여 개발 생산성을 향상시켰으며, React 및 Vue 프로젝트에서 적용했습니다.",
+                    "imgSrc": "img-icon-vite"
+                },
+                {
+                    "name": "esBuild",
+                    "description": "고속 번들러 esBuild를 활용하여 빌드 속도를 최적화하고, 개발 환경에서 빠른 피드백을 제공했습니다.",
+                    "imgSrc": "img-icon-esbuild"
+                },
+                {
+                    "name": "Nx",
+                    "description": "모노레포 환경에서 Nx를 활용하여 프로젝트를 구성하고, 코드 재사용성과 빌드 속도를 최적화했습니다.",
+                    "imgSrc": "img-icon-nx"
+                }
+            ]
+        },
+        {
+            "title": "라이브러리",
+            "desc": [
+                {
+                    "name": "WebSocket",
+                    "description": "실시간 데이터 통신을 위해 WebSocket을 활용하고, 이벤트 기반 메시징 시스템을 구축했습니다.",
+                    "imgSrc": "img-icon-websocket"
+                },
+                {
+                    "name": "Chart.js",
+                    "description": "Chart.js를 활용하여 대시보드에서 다양한 차트를 렌더링하고, 데이터 시각화를 구현했습니다.",
+                    "imgSrc": "img-icon-chart"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "description": "유틸리티 퍼스트 CSS 프레임워크를 활용하여 빠르고 효율적인 UI 스타일링을 적용했습니다.",
+                    "imgSrc": "img-icon-tailwind"
+                },
+                {
+                    "name": "ShadCN",
+                    "description": "Radix UI를 기반으로 한 컴포넌트 라이브러리를 활용하여 접근성이 뛰어난 UI를 구성했습니다.",
+                    "imgSrc": "img-icon-shadcn"
+                },
+                {
+                    "name": "Recoil",
+                    "description": "React 애플리케이션에서 Recoil을 활용하여 전역 상태 관리를 구현하고 성능을 최적화했습니다.",
+                    "imgSrc": "img-icon-recoil"
+                }
+            ]
+        },
+        {
+            "title": "데브옵스",
+            "desc": [
+                {
+                    "name": "Nginx",
+                    "description": "Reverse Proxy 및 로드 밸런서 역할을 수행하도록 설정하여 웹 서비스 성능과 보안을 강화했습니다.",
+                    "imgSrc": "img-icon-nginx"
+                },
+                {
+                    "name": "Kubernetes",
+                    "description": "마이크로서비스 환경에서 컨테이너 오케스트레이션을 수행하고, CI/CD를 연계하여 자동 배포를 구현했습니다.",
+                    "imgSrc": "img-icon-kubernetes"
+                },
+                {
+                    "name": "Docker",
+                    "description": "컨테이너 기반 개발 환경을 구축하고, Docker Compose를 활용하여 로컬에서 멀티 컨테이너 애플리케이션을 운영했습니다.",
+                    "imgSrc": "img-icon-docker"
+                },
+                {
+                    "name": "AWS CloudFront",
+                    "description": "정적 및 동적 콘텐츠 배포를 최적화하고, 캐싱을 활용하여 성능과 보안을 강화했습니다.",
+                    "imgSrc": "img-icon-cloudfront"
+                },
+                {
+                    "name": "Amazon EKS",
+                    "description": "AWS에서 Kubernetes 클러스터를 운영하며, Auto Scaling 및 모니터링을 구성하여 안정적인 운영을 구현했습니다.",
+                    "imgSrc": "img-icon-eks"
+                },
+                {
+                    "name": "AWS CloudWatch",
+                    "description": "AWS 서비스의 로그 및 메트릭을 수집하여 성능 모니터링과 장애 감지를 수행했습니다.",
+                    "imgSrc": "img-icon-cloudwatch"
                 }
             ]
         },
@@ -94,65 +148,48 @@ export const data = {
             "title": "백엔드",
             "desc": [
                 {
-                    "name": "PHP",
-                    "description": "Dothome을 통해 회원 정보 관리와 게시물 작성 및 삭제를 구현했습니다.",
-                    "imgSrc": "img-icon-php"
+                    "name": "Spring Boot",
+                    "description": "RESTful API를 개발하고, Spring Security를 활용한 인증 및 권한 관리를 구현했습니다.",
+                    "imgSrc": "img-icon-spring"
                 },
                 {
-                    "name": "MySQL",
-                    "description": "PHP로 작성한 데이터를 Dothome 호스팅을 통해 관리했습니다.",
-                    "imgSrc": "img-icon-php"
+                    "name": "Spring WebFlux",
+                    "description": "비동기 논블로킹 방식의 리액티브 프로그래밍을 활용하여 고성능 백엔드를 개발했습니다.",
+                    "imgSrc": "img-icon-spring"
+                },
+                {
+                    "name": "MongoDB",
+                    "description": "NoSQL 데이터베이스를 활용하여 대규모 데이터를 효율적으로 저장하고, 인덱싱을 최적화했습니다.",
+                    "imgSrc": "img-icon-mongodb"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "description": "관계형 데이터베이스를 활용하여 트랜잭션을 관리하고, 고가용성을 위한 리플리케이션을 구성했습니다.",
+                    "imgSrc": "img-icon-postgresql"
+                },
+                {
+                    "name": "Redis",
+                    "description": "캐싱 및 세션 관리를 위해 Redis를 활용하여 애플리케이션의 성능을 최적화했습니다.",
+                    "imgSrc": "img-icon-redis"
                 }
             ]
         },
         {
-            "title": "디자인",
+            "title": "MSA",
             "desc": [
                 {
-                    "name": "Figma",
-                    "description": "반복 작업을 효율적으로 처리할 수 있도록 컴포넌트를 분리하여 디자인했습니다.",
-                    "imgSrc": "img-icon-figma"
+                    "name": "ActiveMQ",
+                    "description": "비동기 메시징 시스템을 활용하여 마이크로서비스 간 데이터 처리를 안정적으로 수행했습니다.",
+                    "imgSrc": "img-icon-activemq"
                 },
                 {
-                    "name": "Framer",
-                    "description": "Lottie 모션 작업을 구현하기 위해 사용했습니다.",
-                    "imgSrc": "img-icon-photoshop"
-                },
-                {
-                    "name": "Photoshop",
-                    "description": "간단한 이미지 편집 작업에 사용했습니다.",
-                    "imgSrc": "img-icon-photoshop"
-                },
-                {
-                    "name": "After Effect",
-                    "description": "리깅과 퍼펫 작업을 포함한 간단한 모션 및 영상 편집을 했습니다.",
-                    "imgSrc": "img-icon-photoshop"
-                }
-            ]
-        },
-        {
-            "title": "협력도구",
-            "desc": [
-                {
-                    "name": "Jira",
-                    "description": "이슈 등록 및 의견 작성 등의 기본적인 작업을 수행했습니다."
-                },
-                {
-                    "name": "Slack",
-                    "description": "팀원들과 코드 공유 및 업무 분배를 용이하게 하기 위해 사용했습니다."
-                },
-                {
-                    "name": "Teams",
-                    "description": "팀 내 소통과 협업을 위해 사용했습니다."
-                },
-                {
-                    "name": "Red Mine",
-                    "description": "이슈 등록 및 댓글 작성과 같은 기본적인 작업을 수행했습니다."
+                    "name": "AWS Cloud Map",
+                    "description": "마이크로서비스의 서비스 디스커버리 및 네트워크 관리 기능을 활용하여 서비스 간 통신을 최적화했습니다.",
+                    "imgSrc": "img-icon-cloudmap"
                 }
             ]
         }
     ],
-
     // 섹션 4
     education: [
         {
@@ -189,195 +226,190 @@ export const data = {
 
     // 섹션 5
     projects: [
-        {
-            title: "팬덤박스",
-            desc: "asdasdasdas",
-            imgSrc:"img-project-fdmbox",
-            feature: {
-                name: "작업 기여도",
-                description: [
-                    "개선 사항에 대한 피드백을 열린 마음으로 받아들이고, 이를 바탕으로 구체적이고 실질적인 해결책을 제안하여 프로젝트의 완성도를 높였습니다.",
-                    "PC 및 모바일에 최적화된 모든 서비스 페이지의 디자인을 책임졌습니다.",
-                    "게이미피케이션 요소에 집중하여, 사용자 참여를 유도하는 디자인과 개발을 성공적으로 구현했습니다.",
-                    "웹 표준 및 접근성 규정을 준수하며 퍼블리싱을 수행, 다양한 사용자들이 쉽게 접근할 수 있는 환경을 조성했습니다.",
-                    "세분화되어 있던 적응형 웹 구조를 반응형 웹으로 전환하여, 유지보수 및 작업 효율성을 크게 개선했습니다."
-                ]
+            {
+                "title": "현대건설 커뮤니티",
+                "desc": "현대건설의 커뮤니티 서비스 개발을 담당하며, WebView 기반의 모바일 환경 최적화 및 사용자 경험 개선을 수행했습니다.",
+                "imgSrc": "img-project-hyundai-community",
+                "feature": {
+                    "name": "주요 기능 및 특징",
+                    "description": [
+                        "iOS/Android 네이티브 앱 내 WebView 기능을 통합하고 최적화했습니다.",
+                        "장애 발생 시 원인을 빠르게 파악할 수 있도록 표준화된 로그 시스템을 구축했습니다.",
+                        "커뮤니티 내 게시글 작성, 댓글, 좋아요 등 기본적인 소셜 기능을 개발했습니다.",
+                        "SEO 최적화 및 성능 개선을 위해 SSR과 CSR을 적절히 적용했습니다."
+                    ]
+                },
+                "details": [
+                    {
+                        "name": "타입",
+                        "description": ["WebView", "Mobile"]
+                    },
+                    {
+                        "name": "프로젝트 규모",
+                        "description": ["기업 프로젝트"]
+                    },
+                    {
+                        "name": "참여도",
+                        "description": ["프론트엔드 100%", "아키텍처 설계"]
+                    },
+                    {
+                        "name": "프레임워크",
+                        "description": ["Next.js"]
+                    },
+                    {
+                        "name": "라이브러리",
+                        "description": ["Recoil", "SWR", "Tailwind CSS"]
+                    }
+                ],
+                "screenshots": [
+                    "img-screenshot-hyundai-01",
+                    "img-screenshot-hyundai-02",
+                    "img-screenshot-hyundai-03"
+                ],
+                "url": {
+                    "live": "",
+                    "github": "",
+                    "figma": ""
+                }
             },
-            details: [
-                {
-                    name: "타입",
-                    description: [
-                        "모바일",
-                        "반응형"
+            {
+                "title": "스마트홈 플랫폼 백오피스",
+                "desc": "IoT 기반 스마트홈 플랫폼의 운영을 위한 백오피스를 개발하며, 관리자 시스템의 효율성과 보안성을 강화했습니다.",
+                "imgSrc": "img-project-smarthome-backoffice",
+                "feature": {
+                    "name": "주요 기능 및 특징",
+                    "description": [
+                        "스마트홈 기기 제어 및 관리 기능을 제공하는 백오피스 개발.",
+                        "사용자 및 기기 데이터를 효율적으로 관리하기 위한 대시보드 구축.",
+                        "세션 관리 로직 개선을 통해 보안성을 강화하고, SharedWorker를 활용하여 탭 간 상태 공유를 최적화.",
+                        "IoT 디바이스 상태 모니터링을 위한 실시간 데이터 스트리밍 기능 추가."
                     ]
                 },
-                {
-                    name: "프로젝트 규모",
-                    description: [
-                        "사내 서비스",
-                    ]
-                },
-                {
-                    name: "참여도",
-                    description: [
-                        "프론트 60%",
-                        "디자인 100%"
-                    ]
-                },
-                {
-                    name: "프레임워크",
-                    description: [
-                        "Laravel"
-                    ]
-                },
-                {
-                    name: "라이브러리",
-                    description: [
-                        "Vite",
-                        "Swiper",
-                        "Bootstrap"
-                    ]
-                },
-            ],
-            screenshots: [
-                "img-screenshot-fdmbox-01",
-                "img-screenshot-fdmbox-02",
-                "img-screenshot-fdmbox-03",
-                "img-screenshot-fdmbox-04",
-                "img-screenshot-fdmbox-05",
-            ],
-            url:{
-                live: "https://fdmbox.com",
-                github: "",
-                figma: "",
-            }
-        },
-        {
-            title: "메이즈 공식 사이트",
-            desc: "asdasdasdas",
-            imgSrc:"img-project-maze",
-            feature: {
-                name: "작업 기여도",
-                description: [
-                    "모든 서비스 페이지의 UI/UX 디자인을 책임지고, 사용자의 경험을 최적화하기 위한 직관적이고 일관된 인터페이스를 설계했습니다.",
-                    "추후 추가될 기능과 컨텐츠를 고려하여 서브 페이지를 효율적으로 확장할 수 있는 템플릿 기반의 구조로 구현했습니다.",
-                    "기업의 브랜드 아이덴티티를 반영하여 사용자가 쉽게 인식하고 기억에 남을 수 있도록 디자인에 세심한 주의를 기울였습니다.",
-                    "모든 페이지를 반응형으로 개발하여 다양한 디바이스에서 일관된 사용자 경험을 제공하였습니다."
-                ]
+                "details": [
+                    {
+                        "name": "타입",
+                        "description": ["Web"]
+                    },
+                    {
+                        "name": "프로젝트 규모",
+                        "description": ["기업 프로젝트"]
+                    },
+                    {
+                        "name": "참여도",
+                        "description": ["프론트엔드 80%", "DevOps 구축"]
+                    },
+                    {
+                        "name": "프레임워크",
+                        "description": ["Vue.js"]
+                    },
+                    {
+                        "name": "라이브러리",
+                        "description": ["Material UI", "Chart.js"]
+                    }
+                ],
+                "screenshots": [
+                    "img-screenshot-smarthome-01",
+                    "img-screenshot-smarthome-02",
+                    "img-screenshot-smarthome-03"
+                ],
+                "url": {
+                    "live": "",
+                    "github": "",
+                    "figma": ""
+                }
             },
-            details: [
-                {
-                    name: "타입",
-                    description: [
-                        "반응형",
-                        "PC",
-                        "모바일",
+            {
+                "title": "전기 안전 예측 솔루션 시스템 개발",
+                "desc": "전기 분전반 데이터 기반으로 실시간 알림 및 대시보드를 제공하는 MSA 기반 예측 솔루션 개발.",
+                "imgSrc": "img-project-electric-safety",
+                "feature": {
+                    "name": "주요 기능 및 특징",
+                    "description": [
+                        "전기 분전반 데이터를 실시간으로 수집하고 분석하는 대시보드 구축.",
+                        "Spring WebFlux를 활용한 비동기 이벤트 처리로 성능 최적화.",
+                        "MSA 구조 전환을 통해 확장성을 고려한 시스템 구축.",
+                        "Eureka 기반 서비스 디스커버리와 AWS Cloud Map을 이용한 서비스 등록 및 로드밸런싱."
                     ]
                 },
-                {
-                    name: "프로젝트 규모",
-                    description: [
-                        "사내 사이드 프로젝트"
-                    ]
-                },
-                {
-                    name: "참여도",
-                    description: [
-                        "프론트 100%",
-                        "디자인 100%"
-                    ]
-                },
-                {
-                    name: "프레임워크",
-                    description: [
-                        "Next JS"
-                    ]
-                },
-                {
-                    name: "라이브러리",
-                    description: [
-                        "Framer-Motion",
-                        "Matter JS",
-                        "Swiper",
-                        "Zustand"
-                    ]
-                },
-            ],
-            screenshots: [
-                "img-screenshot-maze-01",
-                "img-screenshot-maze-02",
-                "img-screenshot-maze-03",
-                "img-screenshot-maze-04",
-                "img-screenshot-maze-05",
-            ],
-            url:{
-                live: "https://maze.games",
-                github: "",
-                figma: "",
-            }
-        },
-        {
-            title: "픽클!",
-            desc: "asdasdasdas",
-            imgSrc:"img-project-pickle",
-            feature: {
-                name: "주요 기능 및 특징",
-                description: [
-                    "날씨에 따라 추천되는 음악을 들을 수도 있고 서버 자체에 저장되어 있는 음악을 들을수도 있는 음악 사이트 픽클! 입니다.",
-                    "웹 표준과 접근성을 준수하여 다양한 사용자가 서비스에 쉽게 접근할 수 있도록 퍼블리싱 작업을 진행했습니다.",
-                    "Zustand를 활용해 음악 재생 및 재생 목록 상태를 중앙에서 효율적으로 관리하여, 사용자의 경험을 향상시켰습니다.",
-                    "외부 API를 활용하여 실시간으로 음악 데이터를 수집하고, 이를 기반으로 사용자가 다양한 음악을 검색하고 재생할 수 있는 기능을 구현했습니다.",
-                    "수집된 음악 데이터를 MongoDB에 저장 및 관리하여, 데이터의 지속적인 보존과 사용자 맞춤형 플레이리스트 기능을 제공했습니다."
-                ]
+                "details": [
+                    {
+                        "name": "타입",
+                        "description": ["Web", "Dashboard"]
+                    },
+                    {
+                        "name": "프로젝트 규모",
+                        "description": ["기업 프로젝트"]
+                    },
+                    {
+                        "name": "참여도",
+                        "description": ["프론트엔드 50%", "백엔드 50%"]
+                    },
+                    {
+                        "name": "프레임워크",
+                        "description": ["Spring Boot", "Spring WebFlux", "Vue"]
+                    },
+                    {
+                        "name": "라이브러리",
+                        "description": ["Vue"]
+                    }
+                ],
+                "screenshots": [
+                    "img-screenshot-electric-01",
+                    "img-screenshot-electric-02",
+                    "img-screenshot-electric-03"
+                ],
+                "url": {
+                    "live": "",
+                    "github": "",
+                    "figma": ""
+                }
             },
-            details: [
-                {
-                    name: "타입",
-                    description: [
-                        "PC"
+            {
+                "title": "디자인 시스템 개발",
+                "desc": "h-react-design-system을 개발하여 UI 컴포넌트의 일관성과 재사용성을 극대화한 디자인 시스템 구축.",
+                "imgSrc": "img-project-design-system",
+                "feature": {
+                    "name": "주요 기능 및 특징",
+                    "description": [
+                        "React 기반의 디자인 시스템을 구축하여 UI 컴포넌트의 일관성을 확보.",
+                        "ESM과 CommonJS를 모두 지원하는 패키지 구조 설계.",
+                        "Storybook을 활용한 문서화 및 컴포넌트 테스트 환경 구축.",
+                        "클래스형 및 Styled Components 방식을 모두 지원하여 유연한 스타일링 제공."
                     ]
                 },
-                {
-                    name: "프로젝트 규모",
-                    description: [
-                        "토이 프로젝트"
-                    ]
-                },
-                {
-                    name: "기타",
-                    description: [
-                        "Shazam API",
-                        "Mongo DB API"
-                    ]
-                },
-                {
-                    name: "프레임워크",
-                    description: [
-                        "Next JS"
-                    ]
-                },
-                {
-                    name: "라이브러리",
-                    description: [
-                        "MongoDB",
-                        "Zustand",
-                        "Swiper",
-                    ]
-                },
-            ],
-            screenshots: [
-                "img-screenshot-pickle-01",
-                "img-screenshot-pickle-02",
-                "img-screenshot-pickle-03",
-                "img-screenshot-pickle-04",
-                "img-screenshot-pickle-05",
-            ],
-            url:{
-                live: "https://pickle-music.netlify.app/home",
-                github: "https://github.com/kimsangjunv1/-NextJS-Pickle",
-                figma: "",
-            }
-        },
+                "details": [
+                    {
+                        "name": "타입",
+                        "description": ["Library"]
+                    },
+                    {
+                        "name": "프로젝트 규모",
+                        "description": ["개인 프로젝트"]
+                    },
+                    {
+                        "name": "참여도",
+                        "description": ["100%"]
+                    },
+                    {
+                        "name": "프레임워크",
+                        "description": ["React"]
+                    },
+                    {
+                        "name": "라이브러리",
+                        "description": ["Styled Components", "Storybook", "Rollup"]
+                    }
+                ],
+                "screenshots": [
+                    "img-screenshot-design-01",
+                    "img-screenshot-design-02",
+                    "img-screenshot-design-03"
+                ],
+                "url": {
+                    "live": "",
+                    "github": "https://github.com/h-react-design-system",
+                    "figma": ""
+                }
+            },
         {
             title: "플레이그라운드",
             desc: "asdasdasdas",
@@ -431,128 +463,7 @@ export const data = {
             ],
             url:{
                 live: "https://playground-r.netlify.app",
-                github: "https://github.com/kimsangjunv1/-React-Playground",
-                figma: "",
-            }
-        },
-        {
-            title: "포트폴리오",
-            desc: "asdasdasdas",
-            imgSrc:"img-project-portfolio",
-            feature: {
-                name: "주요 기능 및 특징",
-                description: [
-                    "포트폴리오를 보는 사용자들에게 인터렉티브 하면서도 원하는 정보를 쉽게 전달할 수 있도록 고려",
-                    "다양한 모습의 캐릭터를 중간중간 삽입해 순간순간의 장면이 기억에 남을 수 있도록 구성하였습니다.",
-                    "GSAP와 Framer-Motion을 통해 인터렉티브한 섹션들을 구성하였습니다.",
-                    "모든 내용을 손쉽게 관리(수정, 삭제)하기 위해 하나의 js에 중앙관리화 하였습니다."
-                ]
-            },
-            details: [
-                {
-                    name: "타입",
-                    description: [
-                        "PC",
-                        "모바일"
-                    ]
-                },
-                {
-                    name: "프로젝트 규모",
-                    description: [
-                        "사이드 프로젝트"
-                    ]
-                },
-                {
-                    name: "참여도",
-                    description: [
-                        "프론트 100%",
-                        "디자인 100%"
-                    ]
-                },
-                {
-                    name: "메인",
-                    description: [
-                        "React"
-                    ]
-                },
-                {
-                    name: "라이브러리",
-                    description: [
-                        "GSAP",
-                        "Framer-Motion",
-                        "Lenis"
-                    ]
-                },
-            ],
-            screenshots: [
-                "img-screenshot-portfolio-01",
-                "img-screenshot-portfolio-02",
-                "img-screenshot-portfolio-03",
-                "img-screenshot-portfolio-04",
-            ],
-            url:{
-                live: "https://portfoliosj-react.netlify.app/",
-                github: "https://github.com/kimsangjunv1/-React-Portfolio",
-                figma: "",
-            }
-        },
-        {
-            title: "CODi_Agit. | 코디 아지트.",
-            desc: "좋아하는것, 공부한것, 기록해두고 싶은것을 올리기위한 저만의 웹사이트 입니다.",
-            imgSrc:"img-project-codiagit",
-            feature: {
-                name: "주요 기능 및 특징",
-                description: [
-                    "주어진 권한에 따라 글 편집 권한이 주어집니다.",
-                    "게스트 로그인을 통해 회원가입 없이도 접속이 가능합니다.",
-                    "SEO 최적화를 위한 시멘틱 태그 배치 및 OG 정보를 최적화 했습니다.",
-                    "좋아요 및 로그인 횟수 별 회원 등급이 부여 됩니다.(개발중)",
-                    "개인별 댓글 작성이 가능합니다.(개발중)",
-                ]
-            },
-            details: [
-                {
-                    name: "타입",
-                    description: [
-                        "PC"
-                    ]
-                },
-                {
-                    name: "프로젝트 규모",
-                    description: [
-                        "토이 프로젝트"
-                    ]
-                },
-                {
-                    name: "기타",
-                    description: [
-                        "현재 개발 진행중"
-                    ]
-                },
-                {
-                    name: "메인",
-                    description: [
-                        "PHP"
-                    ]
-                },
-                {
-                    name: "라이브러리",
-                    description: [
-                        "Sun Editor",
-                        "Lenis",
-                        "SCSS"
-                    ]
-                },
-            ],
-            screenshots: [
-                "img-screenshot-codiagit-01",
-                "img-screenshot-codiagit-02",
-                "img-screenshot-codiagit-03",
-                "img-screenshot-codiagit-04"
-            ],
-            url:{
-                live: "https://codi-agit.com",
-                github: "https://github.com/kimsangjunv1/-PHP-CODi_Agit.",
+                github: "",
                 figma: "",
             }
         },

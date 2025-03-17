@@ -32,7 +32,6 @@ const Header = ({ isMobile, isVisible, func }) => {
                     <section className="menu">
                         <a href="#career">이력</a>
                         <a href="#skill">기술</a>
-                        <a href="#education">개인공부</a>
                         <a href="#projects">프로젝트</a>
                     </section>
                 }

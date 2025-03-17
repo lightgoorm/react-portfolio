@@ -74,9 +74,7 @@ article {
                 > img {
                     // 메인 캐릭터
                     &:nth-child(1) {
-                        max-width: 30vmin;
-                        bottom: calc(50% - 30vh);
-
+                        max-width: 20vmin;
                         z-index: -1;
                     }
 

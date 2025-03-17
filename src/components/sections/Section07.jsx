@@ -7,16 +7,10 @@ const Section07 = ({ type }) => {
                 <h5 className="title">감사합니다.</h5>
                 <p>
                     {util.replace(type, 
-                        "프론트엔드 개발자로 성장하기 위해 낯선 기술에도 적극적으로 도전하고, 항상 사용자의 관점에서 생각하며 사용하기 좋은 서비스를 만들고 싶습니다."
+                        "사용자 중심 사고와 강한 오너십으로 데이터를 기반으로 서비스 개선과 성공을 위해 끊임없이 고민하는 웹 개발자입니다"
                     )}
                 </p>
-
-                <div className="actions">
-                    <a href="https://github.com/kimsangjunv1" target="_blank">github</a>
-                    <a href="mailto:to_before@naver.com">email</a>
-                </div>
             </div>
-
         </article>
     )
 }
